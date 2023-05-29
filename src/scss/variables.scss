@@ -1,0 +1,217 @@
+$brands-primary: (
+  "black": #0f0f0f,
+  "gray": #4f4f4f,
+  "lightGray": #dcdcdc,
+  "lightGray-": #f9fbfc,
+  "white": #ffffff,
+  "blue": #0541dc,
+  "lightBlue": #2d67ff,
+);
+
+// $brands-secondary: (
+//   "lightBlue": #00cbff,
+//   "lightYellow": #ffe999,
+//   "purple": #9B46E6,
+//   "lightPurple": #bc8fff,
+//   "orange": #ff4b00,
+//   "lightGreen": #cbff80,
+//   "green": #00eeb2,
+//   "pink": #ff9ec1,
+//   "select-background": #F4F4F4,
+// );
+
+
+$brands-secondary: (
+  "lightBlue": #32aaff,
+  "red": #ff4600,
+  "pink": #ff8cff,
+  "green": #aaf00f,
+  "turquoise": #00f0b4,
+  "yellow": #ffe100,
+
+  "select-background": #f4f4f4,
+);
+
+$colors: (
+  "service": #9b46e6,
+  "engineer": #26A901,
+  "solution": #00ADEF,
+  "technologie": #F94316,
+  "background": map-get($brands-primary, "white"),
+  "background-dark": map-get($brands-primary, "black"),
+  "fonts": map-get($brands-primary, "black"),
+  "fonts-light": map-get($brands-primary, "white"),
+  "accent": map-get($brands-primary, "blue"),
+  "border": map-get($brands-primary, "gray"),
+  "awarded": map-get($brands-secondary, "orange"),
+  "inactive": map-get($brands-primary, "gray"),
+  "error": crimson,
+  "warning": orange,
+  "success": map-get($brands-primary, "blue"),
+  "form": map-get($brands-secondary , "lightBlue" ),
+  "select-background": #f4f4f4,
+);
+
+//Spacing
+$spacing-desktop: (
+  "xxxl": 200px,
+  "xxl": 120px,
+  "xl": 100px,
+  "l": 80px,
+  "m": 60px,
+  "s": 40px,
+  "xs": 24px,
+  "xxs": 20px,
+);
+$spacing-mobile: (
+  "xxxl": 120px,
+  "xxl": 100px,
+  "xl": 80px,
+  "l": 60px,
+  "m": 40px,
+  "s": 32px,
+  "xs": 24px,
+  "xxs": 12px,
+);
+$spacing-short: (
+  "xxxl": 16px,
+  "xxl": 14px,
+  "xl": 12px,
+  "l": 10px,
+  "m": 8px,
+  "s": 6px,
+  "xs": 4px,
+  "xxs": 2px,
+);
+
+// Breakpoints
+$breakpoints: (
+  "phone-small": 320px,
+  "tablet": 768px,
+  "tablet-wide": 1024px,
+  "desktop": 1440px,
+  "desktop-wide": 1920px,
+);
+$fonts-sizes-desktop: (
+  "bigNumber": 120px,
+  "bigNumber-line": 140px,
+  "h1": 68px,
+  "h1-line": 80px,
+  "h2": 60px,
+  "h2-line": 72px,
+  "h3": 40px,
+  "h3-line": 52px,
+  "h4": 28px,
+  "h4-line": 40px,
+  "h5": 24px,
+  "h5-line": 32px,
+  "h6": 20px,
+  "h6-line": 28px,
+  "paragraph": 20px,
+  "paragraph-line": 28px,
+  "input_text": 14px,
+  "input_text-line": 16px,
+  "uppercase_small_title": 16px,
+  "uppercase_small_title-line": 18px,
+  "article_title": 16px,
+  "article_title-line": 24px,
+  "card_date": 14px,
+  "card_date-line": 16px,
+  "tag": 14px,
+  "tag-line": 20px,
+  "button_text": 14px,
+  "button_text-line": 20px,
+  "hero_subTitle": 40px,
+  "hero_subTitle-line": 48px,
+  "hero_square_slide-marge": 22px,
+  "header_font-size": 16px,
+  "header_line": 32px,
+  "scrolling-freeze": 40px,
+  "scrolling-freeze-line": 48px,
+  "bigText": 120px,
+  "bigText-line": 140px,
+);
+$fonts-sizes-mobile: (
+  "bigNumber": 100px,
+  "bigNumber-line": 120px,
+  "h1": 40px,
+  "h1-line": 44px,
+  "h2": 32px,
+  "h2-line": 36px,
+  "h3": 28px,
+  "h3-line": 32px,
+  "h4": 24px,
+  "h4-line": 28px,
+  "h5": 20px,
+  "h5-line": 24px,
+  "h6": 14px,
+  "h6-line": 24px,
+  "paragraph": 14px,
+  "paragraph-line": 24px,
+  "input_text": 12px,
+  "input_text-line": 24px,
+  "uppercase_small_title": 12px,
+  "uppercase_small_title-line": 16px,
+  "article_title": 14px,
+  "article_title-line": 24px,
+  "card_date": 14px,
+  "card_date-line": 16px,
+  "tag": 14px,
+  "tag-line": 20px,
+  "button_text": 12px,
+  "button_text-line": 18px,
+  "hero_subTitle": 28px,
+  "hero_subTitle-line": 32px,
+  "header_font-size": 20px,
+  "header_line": 24px,
+  "nav-lvl-2-link": 20px,
+  "nav-lvl-2-link-line": 24px,
+  "nav-lvl-3-link": 14px,
+  "nav-lvl-3-link-line": 24px,
+  "scrolling-freeze": 28px,
+  "scrolling-freeze-line": 32px,
+  "bigText": 40px,
+  "bigText-line": 44px,
+);
+$layout-desktop: (
+  "margin": 40px,
+  "column-spacing": 20px,
+  "column-number": 12,
+);
+$layout-mobile: (
+  "margin": 16px,
+  "column-spacing": 12px,
+  "column-number": 8,
+);
+$section-desktop: (
+  "padding": 200px,
+  // See Design Decisions in Figma
+);
+$section-mobile: (
+  "padding": 80px,
+  // See Design Decisions in Figma
+);
+$paragraph-desktop: (
+  // See Design Decisions in Figma
+  "h-margin": 28px,
+  "p-margin": 16px,
+  "button-margin": 40px
+);
+$paragraph-desktop: (
+  // See Design Decisions in Figma
+  "h-margin": 28px,
+  "p-margin": 16px,
+  "button-margin": 40px
+);
+// Z-Indexes
+$z-indexes: ("content", "menu", "header", "modal", "loader");
+
+$header-height-dekstop: (
+  "normal": 120px,
+  // "onScroll": ??,
+);
+
+$header-height-mobile: (
+  "normal": 50px,
+  // "onScroll": ??,
+);

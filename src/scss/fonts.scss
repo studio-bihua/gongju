@@ -1,0 +1,47 @@
+
+/* Font OTF - TTF */
+@font-face {
+    font-family: "Everett-Regular";
+    src: url("../../../assets/fonts/Everett/Everett-Regular.otf")format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "InterTight-Regular";
+    src: url("../../../assets/fonts/InterTight/InterTight-Regular.ttf")  format('truetype'),;
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+/*Font WOFF*/
+@font-face {
+    font-family: "Everett-Regular";
+    src: url("../../../assets/fonts/Everett/Everett-Regular.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "InterTight-Regular";
+    src: url("../../../assets/fonts/InterTight/InterTight-Regular.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+/*Font WOFF2*/
+@font-face {
+    font-family: "Everett-Regular";
+    src: url("../../../assets/fonts/Everett/Everett-Regular.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@font-face {
+    font-family: "InterTight-Regular";
+    src: url("../../../assets/fonts/InterTight/InterTight-Regular.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
