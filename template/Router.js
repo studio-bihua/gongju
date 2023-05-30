@@ -17,6 +17,10 @@ export const RouterManager = () => {
             </li>
         </ul>
         <Router>
+        <TransitionGroup>
+          <CSSTransition>
+            </CSSTransition>
+        </TransitionGroup>
             <Switch>
                 <Route path="/contact">
                     <Contact />
