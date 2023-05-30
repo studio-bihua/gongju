@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'wouter';
 
 
 const Home = () => {
-    return <p>Ceci est la page d'acceuil <Link to='/contact'>Contact</Link></p>
+    return <p>Ceci est la page d'acceuil <Link href='/contact'>Contact</Link></p>
 }
 
 export default Home;
