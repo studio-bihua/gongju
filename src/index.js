@@ -8,8 +8,8 @@ import  {
     getDocument,
     getWindow,
 } from "./js/dom" 
-
-import  useOutsideClick from "./react-hooks/useClickOutside" 
+import lenis from "@studio-freight/lenis"
+import  {useOutsideClick} from "./react-hooks/useClickOutside" 
 import  useMediaQuery from "./react-hooks/useMediaQuery" 
 import  useMutationObserver from "./react-hooks/useMutationObserver" 
 import  useSearch from "./react-hooks/useSearch" 
@@ -32,7 +32,8 @@ export {
     useMutationObserver,
     useSearch,
     useSmoothScroll,
-    useWindowSize
+    useWindowSize,
+    lenis,
 }
 
 const gongju = {
@@ -49,7 +50,8 @@ const gongju = {
     useMutationObserver,
     useSearch,
     useSmoothScroll,
-    useWindowSize
+    useWindowSize,
+    lenis,
 }
 
 export default gongju
