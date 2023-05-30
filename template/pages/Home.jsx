@@ -1,9 +1,19 @@
 import React from 'react';
-import { Link } from 'wouter';
 
+import HomeStyle from './home.module.scss';
 
 const Home = () => {
-    return <p>Ceci est la page d'acceuil <Link href='/contact'>Contact</Link></p>
+    return (
+        <>
+        <section className={HomeStyle.bi_hero}>
+            <h1>Gongju</h1>
+            <p>Utility Library</p>
+        </section>
+        <section>
+
+        </section>
+        </>
+    )
 }
 
 export default Home;
