@@ -1,5 +1,13 @@
 # Functions
-## Dom.js
+
+## Table of Contents
+
+- [Dom](#Dom)
+- [eventBus](#eventBus)
+
+
+
+## Dom
 - getRectangle
     - params : Node element
     - return : {
@@ -35,7 +43,7 @@
 
 
 
-## eventBus.js
+## eventBus
 This script is useFull to handle events.
 - on 
     - allow to listen an event.
@@ -48,6 +56,7 @@ This script is useFull to handle events.
 - remove 
     - allow to stop listening an event.
     - params: name:string, callBack:function
+
 
 
 
