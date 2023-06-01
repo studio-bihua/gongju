@@ -1,0 +1,26 @@
+@import "./fonts.scss";
+@import "./variables.scss";
+@import "../../../../src/scss/mixins.scss";
+@import "../../../../src/scss/reset.scss";
+
+body,
+html {
+    width: 100%;
+    min-height: 100%;
+    background-color: map-get($colors, "background");
+    color: map-get($colors, "fonts");
+    font-family: sans-serif;
+
+
+    h1 {
+        font-family: 'Fugaz', Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 338.79px;
+        line-height: 384px;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        pointer-events: none;
+    }
+}

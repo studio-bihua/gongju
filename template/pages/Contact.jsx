@@ -1,8 +1,19 @@
 import React from 'react';
-import { Link } from 'wouter';
+
+import ContactStyle from './contact.module.scss';
 
 const Contact = () => {
-    return <p>Ceci est la page de contact <Link href='/'>Accueil</Link></p>
+    return (
+        <>
+        <section className={ContactStyle.bi_hero}>
+            <h1>Gongju</h1>
+            <p>Utility Library</p>
+        </section>
+        <section>
+
+        </section>
+        </>
+    )
 }
 
 export default Contact;

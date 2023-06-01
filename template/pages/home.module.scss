@@ -1,0 +1,26 @@
+@import '../../src/scss/mixins.scss';
+
+.bi_hero {
+    padding-left: 32px;
+    padding-right: 32px;
+    p{
+        font-size: 40px;
+        margin-left: auto;
+        display: block;
+        width: fit-content;
+    }
+}
+
+.bi_articles {
+    @include grid(8, 16px, 32px);
+    margin-top: 96px;
+    margin-bottom: 160px;
+    ul{
+        grid-column: 2 / 8;
+        display: flex;
+        column-gap: 16px;
+        li{
+            width: 100%;
+        }
+    }
+}

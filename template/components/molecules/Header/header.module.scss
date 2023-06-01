@@ -1,0 +1,23 @@
+.bi_header {
+    padding: 30px 32px;
+    border-bottom: 1px solid black;
+    display: flex;
+    ul{
+        padding: 0px;
+        margin: 0px;
+        column-gap: 12px;
+        text-decoration: none;
+        list-style: none;
+        margin-left: 16px;
+        display: flex;
+        align-items: center;
+        li{
+            height: fit-content;
+        };
+        a{
+            text-decoration: none;
+            color: black;
+            height: fit-content;
+        }
+    }
+}
